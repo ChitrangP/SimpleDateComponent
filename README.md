@@ -16,11 +16,11 @@ Main purpose of this date component:
 - Supports minimum date and maximum date constraint.
 
 Date formats currently supported by the component. <br>
-    - MM-dd-yyyy<br>
-    - MM-dd-yy<br>
-    - dd-MM-yyyy<br>
-    - dd-MM-yy<br>
-    - yy-MM-dd<br>
+- MM-dd-yyyy
+- MM-dd-yy
+- dd-MM-yyyy
+- dd-MM-yy
+- yy-MM-dd
 
 Of course, you can update it as per your need.
 
