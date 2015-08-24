@@ -13,8 +13,10 @@ import test.ui.util.Util;
 
 public class DateTextFieldTest {
    private static void createAndShowGUI() {
-	   GregorianCalendar gcMin = new GregorianCalendar(2015, 7, 1);
-	   GregorianCalendar gcMax = new GregorianCalendar(2015, 7, 31);
+	   GregorianCalendar currDate = new GregorianCalendar();
+
+	   GregorianCalendar gcMin = new GregorianCalendar(currDate.get(Calendar.YEAR), currDate.get(Calendar.MONTH), 1);
+	   GregorianCalendar gcMax = new GregorianCalendar(currDate.get(Calendar.YEAR), currDate.get(Calendar.MONTH), currDate.getMaximum(GregorianCalendar.DAY_OF_MONTH));
 	   
 //	   MyDateTextField field1 = new MyDateTextField(new Date(), gcMin.getTime(), gcMax.getTime());
 
