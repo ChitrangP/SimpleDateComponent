@@ -1,6 +1,6 @@
 # SimpleDateComponent
 
-This is the simple date component in Swing. No date picker or spinner. It's a simple extention of JFormattedTextField.
+This is the simple date component in Swing. No date picker or spinner. It's a simple extention of JFormattedTextField. test.DateTextFieldTest.java is the test application to demonstrate use of MyDateTextField.
 
 Main purpose of this date component:
 - Let user just type the date in continuation of his other form fields. No use of mouse needed.
@@ -36,3 +36,6 @@ About Code:
 - test.ui.util.MyDateDocumentFilter.java: getDocumentFilter() of MyDateFormatter class returns instance of this class. It controlls user input. Note: it does not allow user to delete anything.
 
 - test.ui.util.MyDateNavigationFilter.java: getNavigationFilter() of MyDateFormatter class returns instance of this class. It controlls the caret position.
+
+- test.DateTextFieldTest.java: This is the test application to demonstrate use of MyDateTextField.
+
