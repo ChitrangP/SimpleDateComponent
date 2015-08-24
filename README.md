@@ -3,24 +3,24 @@
 This is the simple date component in Swing. No date picker or spinner. It's a simple extention of JFormattedTextField.
 
 Main purpose of this date component:
-- User just type the date in continuation of his other form fields. No use of mouse needed.
-- User just enter numbers for day, month and year. No need to enter date separator For example, for the date '08-23-2015' (date format is MM-dd-yyyy) user just need to enter 08232015. He doesn't have to care about the separator (-).
+- Let user just type the date in continuation of his other form fields. No use of mouse needed.
+- Let user just enter numbers for day, month and year. No need to enter date separator For example, for the date '08-23-2015' (date format is MM-dd-yyyy) user just need to enter 08232015. He doesn't have to care about the separator (-).
 - Skip the separator while user moves caret back and forth in text field.
 
-  For example,
-    Initial caret position: |08-23-2015
-    User moves caret right: 0|8-23-2015
-    User moves caret right: 08-|23-2015
-    User moves caret left : 0|8-23-2015
+  For example,<br>
+    Initial caret position: |08-23-2015<br>
+    User moves caret right: 0|8-23-2015<br>
+    User moves caret right: 08-|23-2015<br>
+    User moves caret left : 0|8-23-2015<br>
 
 - Supports minimum date and maximum date constraint.
 
-Date formats currently supported by the component. 
-    MM-dd-yyyy
-    MM-dd-yy
-    dd-MM-yyyy
-    dd-MM-yy
-    yy-MM-dd
+Date formats currently supported by the component. <br>
+    - MM-dd-yyyy<br>
+    - MM-dd-yy<br>
+    - dd-MM-yyyy<br>
+    - dd-MM-yy<br>
+    - yy-MM-dd<br>
 
 Of course, you can update it as per your need.
 
